@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Etch-a-Sketch</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<h1>Etch-a-Sketch</h1>
+		</header>
+		<main class="container">
+			<aside class="controls">
+				<section class="controls__section grid-options">
+					<button class="controls__btn set-grid-btn">
+						Grid Size
+					</button>
+					<button class="controls__btn clear-grid-btn">
+						Clear Grid
+					</button>
+				</section>
+
+				<section class="controls__section set_color">
+					<header>Choose your color of choice!</header>
+					<div class="color_options">
+						<input
+							id="current-color"
+							class="color_picker"
+							type="color"
+							value="#000000"
+						/>
+
+						OR
+						<button
+							class="controls__btn rainbow"
+							data-color="rainbow"
+						>
+							Rainbow
+						</button>
+					</div>
+				</section>
+			</aside>
+			<section class="grid"></section>
+		</main>
+	</body>
+</html>
