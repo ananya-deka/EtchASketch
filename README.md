@@ -6,4 +6,4 @@ A simple application that allows users to draw on a grid. The users can set the 
 
 ## Demo
 
-(EtchASketch)[etchysketchy.netlify.app]
+[EtchASketch](etchysketchy.netlify.app)
